@@ -1,13 +1,19 @@
-# Loan Qualifier App
+# *Loan Qualifier App*
+
+## **Intro**
+![](pics\R.jpg)
+
+*Overall this app determines if you qualify for a loan by iterating through data and performing numerous calculation.This is made easy for the user and companies.Clients can see which banks are right for them once applications is filled out digitally.*
+```
+New updates allowed the ability to prompt the user to save qualifying loans as a new csv file enhancing user experience.
+```
+>*As high priority feature emerge more updates will continuously enhancing the user experience*
 ---
 
-
-
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
-
----
 
 ## Technologies
+
+
 
 Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
 
