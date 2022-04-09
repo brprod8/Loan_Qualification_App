@@ -1,7 +1,7 @@
 # *Loan Qualifier App*
 
 ## **Intro**
-![](pics\R.jpg)
+![](R.jpg)
 
 *Overall this app determines if you qualify for a loan by iterating through data and performing numerous calculation.This is made easy for the user and companies.Clients can see which banks are right for them once applications is filled out digitally.*
 ```
