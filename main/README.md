@@ -5,7 +5,7 @@
 
 *Overall this app determines if you qualify for a loan by iterating through data and performing numerous calculation.This is made easy for the user and companies.Clients can see which banks are right for them once applications is filled out digitally.*
 ```
-New updates allowed the ability to prompt the user to save qualifying loans as a new csv file enhancing user experience.
+New updates allowed the ability to prompt the user to save qualifying loans as a new csv file enhancing user experience..
 ```
 >*As high priority feature emerge more updates will continuously enhancing the user experience*
 ---
