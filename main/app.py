@@ -107,21 +107,26 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
 
 def save_qualifying_loans(qualifying_loans):
+    csvpath = questionary.text(
+        "Enter a file path to save file:").ask()
     with open('qualifying_loans.csv',  'w', encoding='UTF8') as f:
         writer = csv.writer(f)
         for x in qualifying_loans:
             writer.writerow(x)
+    output_path = Path(csvpath)
 
-    output_path = Path("qualifying_loans.csv")
-    """Saves the qualifying loans to a CSV file.
 
-    Args:
-        qualifying_loans (list of lists): The qualifying bank loans.
-    """
+# """Saves the qualifying loans to a CSV file.
+
+# Args:
+#     qualifying_loans (list of lists): The qualifying bank loans.
+# """
 
 
 def run():
-    """The main function for running the script."""
+    #     """The main function for running the script."""
+    results1 = questionary.confirm(
+        "Do you want to Save Results (.csv)").ask()
 
     # Load the latest Bank data
     bank_data = load_bank_data()
@@ -130,11 +135,21 @@ def run():
     credit_score, debt, income, loan_amount, home_value = get_applicant_info()
 
     # Find qualifying loans
-    qualifying_loans = find_qualifying_loans(bank_data, credit_score, debt, income, loan_amount, home_value
-                                             )
+    qualifying_loans = find_qualifying_loans(
+        bank_data, credit_score, debt, income, loan_amount, home_value)
 
-    # Save qualifying loans
-    save_qualifying_loans(qualifying_loans)
+    if len(qualifying_loans) == 0:
+        return print('NO qualifying loans exist. Exit or try again')
+
+    results1 = questionary.confirm("Are you want to Save Results").ask()
+
+    if results1:
+        save_qualifying_loans('qualifying_loans')
+        # Save qualifying loans
+
+    list = questionary.confirm("Do you want to see the list of loan").ask()
+    if list:
+        print(qualifying_loans)
 
 
 if __name__ == "__main__":
