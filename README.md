@@ -148,7 +148,7 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
 >If you choose to save you will be promted to enter a file path to save results
 
 *If you choose not to save you will be `prompted` to view list of `qualifying loans`*
-
+![](pics\done.png)
 
 
 
