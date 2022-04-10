@@ -114,7 +114,7 @@ section above for installation
 
 *Once csv is upload in your code editor
 Navigate to main app.py*
-![](pics\uploadedcsv.jpg)
+![](uploadedcsv.jpg)
 
 *Navigate to main app.py file*
 
@@ -140,17 +140,17 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
 ```
 **You are now ready to run project**
 
-![](pics\run.jpg)
+![](run.jpg)
 
 >Dont worry if you click no you will have a `option` to **save results** or opt out
 
-![](pics\results.jpg)
+![](try.jpg)
 
 >If you choose to save you will be promted to enter a file path to save results
 
 *If you choose not to save you will be `prompted` to view list of `qualifying loans`*
 
-![](pics\done.png)
+![](done.png)
 
 
 
@@ -161,10 +161,11 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+**Author: Robert Smith**
+
+*Credits-UC Berkley Fintech Bootcamp*
 
 ---
 
 ## License
-
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+>This project is open anyone can use modify for any purposes for collaboration email Roberts.track@yahoo.com

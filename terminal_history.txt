@@ -1,0 +1,50 @@
+  455  cd Loan_Qualification_App/
+  456  git add pics/
+  457  git add README.md
+  458  git commit -m" move files around pic folder"
+  459  git push
+  460  git add pics/
+  461  git add README.md
+  462  git commit -m"added more pics finish installation and usage for readme.md"
+  463  git push
+  464  git pull
+  465  cd c
+  466  cd Loan_Qualification_App/
+  467  git add pics/
+  468  git add README.md
+  469  git commit -m"added more pics finish installation and usage for readme.md"
+  470  git push
+  471  ls
+  472  cd pics/
+  473  ls
+  474  git add done.png
+  475  git add results.jpg
+  476  git add uploadedcsv.jpg
+  477  git add run.jpg
+  478  cd ..
+  479  git add README.md
+  480  git commit-m"adding pics to readme.md"
+  481  git commit -m"adding pics to readme.md"
+  482  git push
+  483  git add done.png
+  484  cd pics/
+  485  git add done.png
+  486  git push
+  487  git add try.jpg
+  488  git push
+  489  git add try.jpg
+  490  cd ..
+  491  git add README.md
+  492  git push
+  493  cd c
+  494  cd Loan_Qualification_App/
+  495  git add README.md
+  496  git add try.jpg
+  497  cd pics/
+  498  git add try.jpg
+  499  git push
+  500  cd c
+  501  cd Loan_Qualification_App/
+  502  [200~ history > 50 terminal_history.txt
+  503   history > 50 terminal_history.txt
+  504   history 50 >terminal_history.txt
