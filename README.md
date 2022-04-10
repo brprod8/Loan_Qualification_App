@@ -11,6 +11,7 @@ emerge more updates will continuously arise enhancing the user experience*
 
 
 ## Technologies
+
   `Iterating to create an approval list`
  
  *This app is built and excuted using `Python version 3.10`*
@@ -38,13 +39,13 @@ credit_score_approval_list = []
   
   `Created Four approval list`
 
-[Credit_score](pics\creditscore.png)
+[Credit_score](pics/creditscore.png)
 
-[Debt_to_income](pics\debt_to_income.png)
+[Debt_to_income](pics/debt_to_income.png)
 
-[Loan_to_value](pics\loan_to_value.png)
+[Loan_to_value](pics/loan_to_value.png)
 
-[Max_loan_size](pics\max_loan.png)
+[Max_loan_size](pics/max_loan.png)
 
 >This uses the same iteration that specifically target each of them and create a seperate list for each of them that **make up bank_data_filter**
 
@@ -87,12 +88,24 @@ The utils folder contain two modules one being for calculation and the other is 
 ---
 
 ## Installation Guide
+To install this project clone repository click [here](https://devconnected.com/how-to-clone-a-git-repository/) for instruction to clone repository  
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+> If you cant clone you can download a zip file
+
+![](zip.jpg)
+
+*Project can be access on github* click [here](https://github.com/brprod8/Loan_Qualification_App) to `access` **github**
 
 ---
-
 ## Usage
+
+
+`After Installation`
+
+ Gather a Csv containing banks qualification such as Lender, Max Loan Amount, Max LTV, Max DTI, Min Credit Score , Interest Rate
+>*rob.csv file containins specifc banks qualification* click [here](rob.csv) to see csv of banks qualifications.
+
+
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
