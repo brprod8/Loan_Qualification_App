@@ -114,7 +114,7 @@ section above for installation
 
 *Once csv is upload in your code editor
 Navigate to main app.py*
-![](uploadedcsv.jpg)
+![](pics/uploadedcsv.jpg)
 
 *Navigate to main app.py file*
 
@@ -140,17 +140,17 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
 ```
 **You are now ready to run project**
 
-![](run.jpg)
+![](pics/run.jpg)
 
 >Dont worry if you click no you will have a `option` to **save results** or opt out
 
-![](try.jpg)
+![](pics/try.jpg)
 
 >If you choose to save you will be promted to enter a file path to save results
 
 *If you choose not to save you will be `prompted` to view list of `qualifying loans`*
 
-![](done.png)
+![](pics/done.png)
 
 
 
