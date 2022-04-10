@@ -139,6 +139,7 @@ from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
 ```
 **You are now ready to run project**
+
 ![](pics\run.jpg)
 
 >Dont worry if you click no you will have a `option` to **save results** or opt out
@@ -148,6 +149,7 @@ from qualifier.filters.loan_to_value import filter_loan_to_value
 >If you choose to save you will be promted to enter a file path to save results
 
 *If you choose not to save you will be `prompted` to view list of `qualifying loans`*
+
 ![](pics\done.png)
 
 
