@@ -90,24 +90,70 @@ The utils folder contain two modules one being for calculation and the other is 
 ## Installation Guide
 To install this project clone repository click [here](https://devconnected.com/how-to-clone-a-git-repository/) for instruction to clone repository  
 
-> If you cant clone you can download a zip file
+> If you cant clone you can download a zip file 
+ 
 
 ![](pics/zip.jpg)
 
 *Project can be access on github* click [here](https://github.com/brprod8/Loan_Qualification_App) to `access` **github**
 
+click [here](https://github.com/brprod8/Loan_Qualification_App/archive/refs/heads/main.zip) for zip file
+ 
 ---
 ## Usage
 
 
 `After Installation`
 
- Gather a Csv containing banks qualification such as Lender, Max Loan Amount, Max LTV, Max DTI, Min Credit Score , Interest Rate
->*rob.csv file containins specifc banks qualification* click [here](rob.csv) to see csv of banks qualifications.
+>You need libraries use for this project installed refer to libraries in Technology 
+section above for installation
+
+ *Gather a Csv containing banks qualification such as Lender, Max Loan Amount, Max LTV, Max DTI, Min Credit Score , Interest Rate `format` your csv **identical** to example file* `rob.csv`
+
+>*rob.csv file containins specifc banks qualification click [here](rob.csv) to see csv of banks qualifications*
+
+*Once csv is upload in your code editor
+Navigate to main app.py*
+![](pics\uploadedcsv.jpg)
+
+*Navigate to main app.py file*
+
+>Make sure all modules is `imported`
+
+```Python
+import sys
+from pathlib import Path
+import fire
+import questionary
+import csv
+from qualifier.utils.fileio import load_csv
+
+from qualifier.utils.calculators import (
+    calculate_monthly_debt_ratio,
+    calculate_loan_to_value_ratio,
+)
+
+from qualifier.filters.max_loan_size import filter_max_loan_size
+from qualifier.filters.credit_score import filter_credit_score
+from qualifier.filters.debt_to_income import filter_debt_to_income
+from qualifier.filters.loan_to_value import filter_loan_to_value
+```
+**You are now ready to run project**
+![](pics\run.jpg)
+
+>Dont worry if you click no you will have a `option` to **save results** or opt out
+
+![](pics\results.jpg)
+
+>If you choose to save you will be promted to enter a file path to save results
+
+*If you choose not to save you will be `prompted` to view list of `qualifying loans`*
 
 
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+
+
+
 
 ---
 
