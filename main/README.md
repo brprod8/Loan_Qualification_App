@@ -32,19 +32,19 @@ credit_score_approval_list = []
   *This specifically tells the computer to iterate bank[4]* **which is all the bank min credit score this information is givin through the csv file**
  
   ```Python
-  int is a function in python because we are getting information through a csv file the number is technically a `string` using int() we coverted it to a integer 
+  int is a function in python because we are getting information through a csv file the number is technically a `string` using int() its coverted to a integer 
   ```
   >If iteration contains decimals such as 0.67 use a `float()`to convert string to float.
   
   `Created Four approval list`
 
-[Credit_score]()
+[Credit_score](pics\creditscore.png)
 
-[Debt_to_income]()
+[Debt_to_income](pics\debt_to_income.png)
 
-[Loan_to_value]()
+[Loan_to_value](pics\loan_to_value.png)
 
-[Max_loan_size]()
+[Max_loan_size](pics\max_loan.png)
 
 >This uses the same iteration that specifically target each of them and create a seperate list for each of them that **make up bank_data_filter**
 
@@ -69,12 +69,20 @@ credit_score_approval_list = []
 
 `Modules`
 
-*Through out this project several Modules are use to access different function whithin its library these modules are*
+*Through out this project several Modules are use to access different functions organized in folders*
+```Python
+The filter folder contain four modules known as the approval_list each containing there own specific iteration to store specific data
+```
+![](pics\filter.jpg)
+```Python
+The utils folder contain two modules one being for calculation and the other is to load csv
+```
 
 
+![](pics\utils.jpg)
 
-##
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+`each module is imported to main py file`
+>Easier to pinpoint problems and more organized being more modularize
 
 ---
 
