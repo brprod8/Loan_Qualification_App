@@ -1,5 +1,5 @@
 # *Loan Qualifier App*
-![](R.jpg)
+![](pics/R.jpg)
 
 *Overall this app determines if you qualify for a loan by iterating through data and performing numerous calculation.This is made easy for the user and companies.Clients can see which banks are right for them once applications is filled out digitally.*
 ```
@@ -74,13 +74,13 @@ credit_score_approval_list = []
 ```Python
 The filter folder contain four modules known as the approval_list each containing there own specific iteration to store specific data
 ```
-![](filter.jpg)
+![](pics/filter.jpg)
 ```Python
 The utils folder contain two modules one being for calculation and the other is to load csv
 ```
 
 
-![](utils.jpg)
+![](pics/utils.jpg)
 
 `each module is imported to main py file`
 >Easier to pinpoint problems and more organized being more modularize
@@ -92,7 +92,7 @@ To install this project clone repository click [here](https://devconnected.com/h
 
 > If you cant clone you can download a zip file
 
-![](zip.jpg)
+![](pics/zip.jpg)
 
 *Project can be access on github* click [here](https://github.com/brprod8/Loan_Qualification_App) to `access` **github**
 
