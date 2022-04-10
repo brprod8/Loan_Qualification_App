@@ -73,13 +73,13 @@ credit_score_approval_list = []
 ```Python
 The filter folder contain four modules known as the approval_list each containing there own specific iteration to store specific data
 ```
-![](pics\filter.jpg)
+![](filter.jpg)
 ```Python
 The utils folder contain two modules one being for calculation and the other is to load csv
 ```
 
 
-![](pics\utils.jpg)
+![](utils.jpg)
 
 `each module is imported to main py file`
 >Easier to pinpoint problems and more organized being more modularize
